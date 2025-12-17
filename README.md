@@ -1,5 +1,3 @@
-# 4-4-4A - cloud and cloud-shadow masks pipeline for CBERS4A satellite imagery using four spectral bands
+# 4-4A - Cloud and cloud-shadow masks pipeline for CBERS4A with four spectral bands
 
-The title of the project comes from the use of **four** bands **for** processing CBERS**4A**
-
-All code is available on this repository 
+WIP
