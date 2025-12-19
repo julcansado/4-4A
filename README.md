@@ -10,10 +10,17 @@ Propose a simple pipeline to process CBERS-4A images and generate metadata, clou
 The access to imagery is done using STAC (Spatial Temporal Asset Catalogue). You can access and explore CBERS-4A collections in [BDC STAC](https://data.inpe.br/bdc/explorer/explore)
 
 Below is an application example of part of the 'CBERS_4A_WPM_20230130_206_130_L4' STAC item:
+
 <br>
+
 <img width="1237" height="718" alt="Image" src="https://github.com/user-attachments/assets/1edd29d3-5a6f-4719-9333-2ca8d01a8f2b" />
 
 <br>
+
+## METHOD
+To reproduce the pipeline, simply run the [notebook in the repository](scene_processing_run_github.ipynb).
+
+It will retrieve the images, process them and generate a local database, containing the metadata and masks!
 
 ## RESULTS
 The proposed pipeline was applied to 100 scenes over the state of Goiás in 2025, and the resulting cloud and cloud shadow masks are in the following [folder](https://drive.google.com/drive/folders/1GXFCXJ6jKAy1Yet8ruZtUHL6jDqBJD8i?usp=drive_link)
